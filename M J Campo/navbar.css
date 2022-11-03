@@ -1,0 +1,115 @@
+.nav-bar{
+
+    height:70px;
+    background-color: #030303;
+    color:white;
+    display: grid;
+    grid-template-columns: 0.75fr 0.80fr 0.50fr 1.50fr;
+    align-items: center;
+}
+.nav-bar> .logo> img{
+    height: 25px;
+    width: 200px;
+    margin-left: 10px;
+        
+       
+}
+.nav-bar> .menus-wrappen> .head-menu{
+    color: yellow;
+    margin-top: 5px;
+}
+.nav-bar> .menus-wrappen> .menus a{
+    font-size: 1.3rem;
+    color: white;
+    margin-right: 5px;
+    text-decoration: solid;
+    transition: 0.5s;
+}
+.nav-bar> .menus-wrappen> .menus a:hover{
+    color: #cea135;
+}
+
+.nav-bar> .spark{
+    display: flex;
+    align-content: center;
+    
+    
+}
+.nav-bar> .spark> .text a{
+    
+    color: rgb(167, 163, 163);
+    text-decoration: none;
+    font-size: 1.2rem;
+  
+        
+}
+.nav-bar> .spark> .simbol{
+    color: rgb(167, 163, 163);
+    text-decoration: none;
+    padding-top: 29px;
+    padding-left: 7px;
+    font-size: x-small;
+    
+}
+.nav-bar> .login-menu  a{
+    
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+
+}
+.nav-bar> .login-menu> .button{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+    
+   
+.nav-bar> .login-menu> .button> .create{
+display:flex;
+
+}
+.nav-bar> .login-menu> .button> .create> .text{
+    font-size: 1.3rem;
+    background-color: #36383f;
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    padding: 10px 30px;
+        
+}
+.nav-bar> .login-menu> .button> .create> .text> .simboli{
+    color: #4acc78;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-left: 10px;
+    font-size:0.75rem;
+
+}
+.nav-bar> .login-menu> .button> .simbolo i{
+    color: #64676f;
+    display: flex;
+    justify-items: center;
+    margin-top: 5px;
+    font-size: 2rem;
+}
+.nav-bar> .login-menu> .button> .login{
+    font-size: 1.3rem;
+    background-color: #36383f;
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    padding: 10px 30px;
+}
+.nav-bar> .login-menu> .button> .sign{
+    font-size: 1.3rem;
+    background-color: #36383f;
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    padding: 10px 30px;
+}

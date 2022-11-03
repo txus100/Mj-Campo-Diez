@@ -1,0 +1,23 @@
+.codepen{
+    
+    height: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #36383f;
+
+}
+
+.codepen> .codepen-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c1c3ca;
+    color: white;
+    font-size: larger;
+
+}
+.codepen> .codepen-menu span{
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
